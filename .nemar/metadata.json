@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "illusory-face-eeg",
+  "description": "This dataset comprises EEG recordings and behavioral data from 300 face, illusory face, and matched non-face object stimuli presented during three tasks: spontaneous dissimilarity judgments, face-likeness ratings, and face/object discrimination. Neural activity was recorded while participants performed an orthogonal target detection task during stimulus presentation at 3.75 Hz, enabling investigation of the neural correlates underlying distinct stages of spontaneous face perception.",
+  "methods_description": "EEG data were collected during presentation of 300 images (human faces, illusory faces, and matched non-face objects) displayed centrally at 3.75 Hz. Participants completed three behavioral tasks: a triplet odd-one-out dissimilarity task, face-likeness ratings on a 0-10 scale, and a speeded face/object categorization task, while simultaneously performing an orthogonal target detection task during EEG recording.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,12 +21,27 @@
       "orcid": "0000-0002-6519-8068"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005642.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "face perception"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "illusory faces"
+    },
+    {
+      "term": "object recognition"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005642",
       "identifier_type": "URL",
@@ -44,6 +61,11 @@
       "identifier": "10.5281/zenodo.15833508",
       "identifier_type": "DOI",
       "relation_type": "HasPart"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005642.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -58,12 +80,12 @@
       "award_title": "Future Fellowship"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "34.4 GB (105 files)"
   ],
   "formats": [
     ".bdf",
@@ -72,44 +94,8 @@
     ".mat",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset contains EEG recordings and behavioral data from 300 human face, illusory face, and matched non-face object stimuli presented during three tasks: spontaneous dissimilarity judgments (triplet odd-one-out), face-likeness ratings, and face/object discrimination. EEG data were acquired while stimuli were presented centrally at 3.75 Hz during an orthogonal target detection task, enabling investigation of the neural correlates underlying distinct stages of spontaneous face perception.",
-  "methods_description": "EEG data were collected during presentation of 300 images (human faces, illusory faces, and matched non-face objects) at 3.75 Hz while participants performed an orthogonal target detection task. Three behavioral tasks were administered: spontaneous dissimilarity assessment via triplet odd-one-out task, face-likeness ratings on a 0-10 scale, and speeded face/object categorization.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "face perception"
-    },
-    {
-      "term": "visual perception"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "illusory faces"
-    },
-    {
-      "term": "object recognition"
-    },
-    {
-      "term": "face categorization"
-    },
-    {
-      "term": "target detection"
-    },
-    {
-      "term": "psychophysics"
-    },
-    {
-      "term": "neural correlates"
-    },
-    {
-      "term": "visual stimuli"
-    }
-  ],
-  "source_hash": "7e37a34921342bfb5231e6f667cade9912e99885a270008a8bc2a0bcdbce8951"
+  "source_hash": "5da44da3150b332b6c9f30f896a03ef3abcb025cad39125c81d53d22df00a77c"
 }
