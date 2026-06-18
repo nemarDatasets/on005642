@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005642",
+  "source": "openneuro",
+  "source_id": "ds005642",
+  "title": "illusory-face-eeg",
+  "authors": {
+    "Amanda K Robinson": {},
+    "Greta Stuart": {},
+    "Sophia M Shatek": {},
+    "Adrian Herbert": {},
+    "Jessica Taubert": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005642.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.0.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Australian Research Council Discovery Early Career Researcher Award DE200101159 (AKR)"
+    },
+    {
+      "funder_name": "Australian Research Council Future Fellowship FT200100843 (JT)"
+    }
+  ],
+  "acknowledgements": "This work was funded by an Australian Research Council Discovery Early Career Researcher Award DE200101159 (AKR) and Australian Research Council Future Fellowship FT200100843 (JT). The funders had no role in study design, data collection and analysis, decision to publish or preparation of the manuscript."
+}
