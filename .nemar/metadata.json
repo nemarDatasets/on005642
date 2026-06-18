@@ -1,40 +1,115 @@
 {
   "version": "2.0",
-  "dataset_id": "on005642",
-  "source": "openneuro",
-  "source_id": "ds005642",
+  "pipeline_stage": "enriched",
   "title": "illusory-face-eeg",
-  "authors": {
-    "Amanda K Robinson": {},
-    "Greta Stuart": {},
-    "Sophia M Shatek": {},
-    "Adrian Herbert": {},
-    "Jessica Taubert": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Amanda K Robinson": {
+      "orcid": "0000-0002-7378-2803"
+    },
+    "Greta Stuart": {
+      "orcid": "0009-0001-3499-2365"
+    },
+    "Sophia M Shatek": {
+      "orcid": "0000-0002-7787-1379"
+    },
+    "Adrian Herbert": {},
+    "Jessica Taubert": {
+      "orcid": "0000-0002-6519-8068"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005642.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005642",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005642",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.31234/osf.io/vrtbx_v1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.5281/zenodo.15833508",
+      "identifier_type": "DOI",
+      "relation_type": "HasPart"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.0.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "Australian Research Council Discovery Early Career Researcher Award DE200101159 (AKR)"
+      "funder_name": "Australian Research Council",
+      "award_number": "DE200101159",
+      "award_title": "Discovery Early Career Researcher Award"
     },
     {
-      "funder_name": "Australian Research Council Future Fellowship FT200100843 (JT)"
+      "funder_name": "Australian Research Council",
+      "award_number": "FT200100843",
+      "award_title": "Future Fellowship"
     }
   ],
-  "acknowledgements": "This work was funded by an Australian Research Council Discovery Early Career Researcher Award DE200101159 (AKR) and Australian Research Council Future Fellowship FT200100843 (JT). The funders had no role in study design, data collection and analysis, decision to publish or preparation of the manuscript."
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".csv",
+    ".json",
+    ".mat",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset contains EEG recordings and behavioral data from 300 human face, illusory face, and matched non-face object stimuli presented during three tasks: spontaneous dissimilarity judgments (triplet odd-one-out), face-likeness ratings, and face/object discrimination. EEG data were acquired while stimuli were presented centrally at 3.75 Hz during an orthogonal target detection task, enabling investigation of the neural correlates underlying distinct stages of spontaneous face perception.",
+  "methods_description": "EEG data were collected during presentation of 300 images (human faces, illusory faces, and matched non-face objects) at 3.75 Hz while participants performed an orthogonal target detection task. Three behavioral tasks were administered: spontaneous dissimilarity assessment via triplet odd-one-out task, face-likeness ratings on a 0-10 scale, and speeded face/object categorization.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "face perception"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "illusory faces"
+    },
+    {
+      "term": "object recognition"
+    },
+    {
+      "term": "face categorization"
+    },
+    {
+      "term": "target detection"
+    },
+    {
+      "term": "psychophysics"
+    },
+    {
+      "term": "neural correlates"
+    },
+    {
+      "term": "visual stimuli"
+    }
+  ],
+  "source_hash": "7e37a34921342bfb5231e6f667cade9912e99885a270008a8bc2a0bcdbce8951"
 }
